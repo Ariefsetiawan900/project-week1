@@ -1,0 +1,499 @@
+*, body {
+    padding: 0;
+    margin : 0;
+}
+body {
+    background: #E5E5E5;
+    
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+/* komponen navbar */
+nav {
+    position: absolute;
+    width: 1200px;
+    height: 80px;
+    left: 340px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+nav ul li {
+    position: absolute;
+    width: 179px;
+    height: 30px;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-family: Airbnb Cereal App;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.nav-catagories  {
+    left: 44px;
+    top: 32px;
+    
+}
+.nav-time  {
+    left: 190px;
+    top: 32px;
+}
+span {
+    position: absolute;
+    width: 0px; 
+    height: 0px; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid black;
+ }
+.triangle1{
+    left: 120px;
+    top: 8px;
+    }
+.triangle2{
+    left: 80px;
+    top: 8px;
+    }
+.kotak-pencarian {
+    position: absolute;
+    width: 350px;
+    height: 38px;
+    left: 380px;
+    top: 20px;
+    float: right;
+    padding: 0px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-indent: 70px;
+    background: url(http://1.bp.blogspot.com/-Awof-hVPIuk/UnXrL19EhUI/AAAAAAAALRM/kpxjyP7A4UM/s1600/search.png) no-repeat scroll 10% 10px;
+    }
+.icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 900px;
+    top: 7px;
+}
+#logo-text {
+    position: absolute;
+    width: 187px;
+    height: 47px;
+    left: 970px;
+    top: 20px;
+    font-family: Airbnb Cereal App;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: bolder;
+    color: #424242;
+}
+
+/* komponen konten bagian atas */
+/* bagian kiri */
+.cover1 {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    left: -73px;
+    top: 136px;
+    border-radius: 15px;
+    }
+.blackbox1 {
+    position: absolute;
+    width: 600px;
+    height: 117px;
+    left: -73px;
+    top: 269px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 15px 15px;
+    }
+.judul1 {
+    position: absolute;
+    width: 327.6px;
+    height: 64px;
+    left: 20.1px;
+    top: 295px;
+    font-family: Airbnb Cereal App;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF; 
+    }
+.detail1{
+    position: absolute;
+    width: 313.2px;
+    height: 27px;
+    left:25.1px;
+    top: 343px;
+    font-family: Airbnb Cereal App;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    /* bagian tengah */
+.cover2 {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 595px;
+    top: 116px;
+    border-radius: 25px;
+    }
+.blackbox2{
+     position: absolute;
+    width: 600px;
+    height: 140.4px;
+    left: 595px;
+    top: 274.4px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 15px 15px;
+    }
+.judul2 {
+    position: absolute;
+    width: 390px;
+    height: 76.8px;
+    left: 632.2px;
+    top: 305.6px;
+    font-family: Airbnb Cereal App;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    }
+.detail2 {
+    position: absolute;
+    width: 411.6px;
+    height: 52.8px;
+    left: 632.2px;
+    top: 362px;
+    font-family: Airbnb Cereal App;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    /* ini bagian kanan */
+.cover3 {
+    position: absolute;
+    width: 290px;
+    height: 250px;
+    left: 1263px;
+    top: 136px;
+    border-radius: 15px;
+    }
+.blackbox3 {
+    position: absolute;
+    width: 290px;
+    height: 117px;
+    left: 1263px;
+    top: 269px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 15px 15px;
+    }
+.judul3 {
+    position: absolute;
+    width: 327.6px;
+    height: 64px;
+    left: 1300.2px;
+    top: 295px;
+    font-family: Airbnb Cereal App;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    }
+.detail3 {
+    position: absolute;
+    width: 313.2px;
+    height: 27px;
+    left: 1301.4px;
+    top: 343px;
+    font-family: Airbnb Cereal App;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    /* konten bagian atas */
+    
+    /* komponen konten bagian bawah */
+    /* bagian kiri */
+.list-book {
+    position: absolute;
+    width: 242px;
+    height: 43px;
+    left: 387px;
+    top: 494px;
+    font-family: Airbnb Cereal App;
+    font-size: 25px;
+    line-height: 33px;
+    color: #424242;
+    }
+.cover-bawah1 {
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    left: 379px;
+    top: 574px;
+    z-index: 2;
+    border-radius: 15px 15px 0px 0px;
+    }
+.box1 {
+    position: absolute;
+    width: 320px;
+    height: 340px;
+    left: 379px;
+    top: 574px;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    }
+.title1 {
+    position: absolute;
+    width: 130.74px;
+    height: 56px;
+    left: 491.46px;
+    top: 781px;
+    font-family: Airbnb Cereal App;
+    font-size: 22px;
+    line-height: 29px;
+    z-index: 2;
+    color: #424242;
+    }
+.isi1 {
+    position: absolute;
+    width: 296px;
+    height: 60px;
+    left: 397px;
+    top: 823px;
+    font-family: Airbnb Cereal App;
+    font-size: 15px;
+    line-height: 20px;
+    z-index: 2;
+    color: #424242;
+    }
+    /* konten bagian tengah */
+.cover-bawah2{
+    position: absolute;
+    width: 329px;
+    height: 200px;
+    left: 735.9px;
+    top: 560px;
+    border-radius: 15px 15px 0px 0px;
+    z-index: 2;
+    
+    }
+.box2 {
+    position: absolute;
+    width: 320px;
+    height: 340px;
+    left: 737px;
+    top: 574px; 
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    z-index: 1;
+    }
+.title2 {
+    position: absolute;
+    width: 316.38px;
+    height: 56px;
+    left: 740.62px;
+    top: 785px;    
+    font-family: Airbnb Cereal App;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;    
+    color: #424242;    
+    z-index: 2;
+    }
+.isi2 {
+    position: absolute;
+    width: 298px;
+    height: 60px;
+    left: 755px;
+    top: 823px;    
+    font-family: Airbnb Cereal App;
+    font-size: 15px;
+    line-height: 20px;    
+    color: #424242;
+    z-index: 2;
+    }
+    /* konten bagian kanan */
+.cover-bawah3{
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    left: 1092px;
+    top: 570px;
+    border-radius: 15px 15px 0px 0px;
+    z-index: 2;    
+    }
+.box3 {
+    position: absolute;
+    width: 320px;
+    height: 340px;
+    left: 1092px;
+    top: 570px;    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    z-index: 1;
+    }
+.title3 {
+    position: absolute;
+    width: 320px;
+    height: 56px;
+    left: 1182.8px;
+    top: 778px;
+    font-family: Airbnb Cereal App;
+    font-size: 22px;
+    line-height: 29px;
+    color: #424242;
+    z-index: 2;
+    }
+.isi3 {
+    position: absolute;
+    width: 287px;
+    height: 60px;
+    left: 1114px;
+    top: 818px;
+    font-family: Airbnb Cereal App;
+    font-size: 15px;
+    line-height: 20px;
+    color: #424242;
+    z-index: 2;
+    }
+
+    /* komopnen sidebar */
+.sidebar {
+    position: absolute;
+    width: 347px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    }
+    /* bagian photo */
+.photo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 94px;
+    top: 66px;
+    border-radius: 150px;
+    }
+.nama-profil {
+    position: absolute;
+    width: 244px;
+    height: 78px;
+    left: 82px;
+    top: 232px;
+    font-family: Airbnb Cereal App;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    font-weight: bold;
+    }
+    /* bagian text sidebar */
+.text1 {
+    position: absolute;
+    width: 244px;
+    height: 56px;
+    left: 49px;
+    top: 345px;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    }
+.text2 {
+    position: absolute;
+    width: 244px;
+    height: 56px;
+    left: 49px;
+    top: 415px;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    }
+.text3 {
+    position: absolute;
+    width: 148px;
+    height: 33px;
+    left: 49px;
+    top: 486px;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    }
+    /*humberger sidebar */
+.menu-navbar {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 306px;
+    top: 22px;
+    }
+    /* komponen icon dan next page */
+    /* bagian kiri */
+.Rnext-page{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1352px;
+    top: 225px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    }
+.right {
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    left: 20px;
+    top: 8px;
+    font-family: Airbnb Cereal App;
+    font-size: 35px;
+    line-height: 46px;
+    color: #424242;
+    }
+    /* bagian kanan */
+.Lnext-page{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -1000px;
+    top: 1px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+}
+.left {
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    left: 20px;
+    top: 7px;
+    font-family: Airbnb Cereal App;
+    font-size: 35px;
+    line-height: 46px;
+    color: #424242;
+}
+
+    
+    
