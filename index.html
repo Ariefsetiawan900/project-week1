@@ -1,89 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="./Asset/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/favicon/iconbook.jpg" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/carousel.css">
+
+    <!-- script -->
+    <script src="./js/carousel.js"></script>
+
+    <title>HOMEPAGE</title>
+
 </head>
+
 <body>
-  <div class="container">
-  <header">
-<nav>
-	<ul>
-	  <li class="nav-catagories"><a href="#">All Catagories <span class="triangle1"></span></a></li>
-	  <li class="nav-time"><a href="#">All Time <span class="triangle2"></span></a></li>
-	</ul>
-	<div id="search-box">
-	  <input type="search" class="kotak-pencarian" placeholder="Search Book">
-	</div>
-   <div id="icon">
-	<img src="../week1/Asset/img/book.png" alt="Icon Buku" class="icon">
-	<p id="logo-text">Perpus.com</p>
-   </div>
-  </div>
-</nav>
-</header>
-<main>
+    <!-- Aside Nav -->
 
-<section id="konten-atas">
-  <!-- ini bagian kiri -->
-  <div><img src="./Asset/img/c1.jpg" alt="Buku" class="cover1"></div>
-  <div class="blackbox1"></div>
-  <div><p class="judul1">Lorem Ipsum</p></div>
-  <div><p class="detail1">Lorem Ipsum</p></div>
-  <!-- ini bagian tengah -->
-  <div><img src="./Asset/img/c2.png" alt="Buku" class="cover2"></div>
-  <div class="blackbox2"></div>
-  <div></div><p class="judul2">Lorem Ipsum</p></div>
-  <div><p class="detail2">Lorem Ipsum</p></div>
-  <!-- ini bagian kanan -->
-  <div><img src="./Asset/img/c3.jpg" alt="Buku" class="cover3"></div>
-  <div class="blackbox3"></div>
-  <div><p class="judul3">Lorem Ipsum</p></div>
-  <div><p class="detail3">Lorem Ipsum</p></div>
-</section>
+    <aside id="mySidebar" class="aside-nav-container">
+        <div class="menu-btn">
+            <i onclick="return closeNav()" class="fas fa-times"></i>
+        </div>
+        <div class="profile-container">
+            <img src="./img/profile.png" width="100%" alt="profil.jpg">
+            <h3>Arief Setiawan</h3>
+        </div>
+        <nav class="aside-nav">
+            <ul>
+                <li><a href="#">Add Book</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Add Book*</a></li>
+            </ul>
+        </nav>
+    </aside>
 
-<section id="Konten-bawah">
-  <!-- konten bagian kiri -->
-  <p class="list-book">List Book</p>
-  <img src="./Asset/img/c1.jpg" alt="cover buku" class="cover-bawah1">
-  <div class="box1"></div>
-  <p class="title1">Lorem Ipsum</p>
-  <p class="isi1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quis modi porro,</p>
-  <!-- konten bagian tengah -->
-  <img src="./Asset/img/c2.png" alt="cover buku" class="cover-bawah2">
-  <div class="box2"></div>
-  <p class="title2">Lorem Ipsum</p>
-  <p class="isi2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quis modi porro,</p>
-  <!-- konten bagian kanan -->
-  <img src="./Asset/img/c3.jpg" alt="cover buku" class="cover-bawah3">
-  <div class="box3"></div>
-  <p class="title3">Lorem Ipsum</p>
-  <p class="isi3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quis modi porro,</p>
-</section>
+    <!-- main container -->
+    <div class="grid-container" id="main">
+        <!-- Top Navbar -->
+        <div class="top-nav-container">
+            <nav class="top-nav">
+                <ul>
+                    <li id="openSidebar">
+                        <div class="topnav-btn">
+                            <i onclick="return openNav()" class="fas fa-bars"></i>
+                        </div>
+                    </li>
+                    <li>All Categories <i class="fa fa-caret-down"></i></li>
+                    <li>All Time <i class="fa fa-caret-down"></i></li>
+                    <li><input style="font-family:Arial, FontAwesome" type="text" placeholder="&#xf002; Search book" />
+                    </li>
 
-</main>
+                </ul>
 
-  <aside>
-      <div class="sidebar">
-          <div><img src="./Asset/img/profile.png" alt="photo profile"  class="photo"></div>
-          <div class="nama-profil"><p>Arief Setiawan</p></div>
-          <div>
-            <div><a href="#" class="text1">Explore</a></div>
-            <div><a href="#" class="text2">History</a></div>
-            <div><a href="#" class="text3">Add Book*</a></div>
-          </div>
-          <div><img src="../week1/Asset/img/menu.png" alt="menu-navbar" class="menu-navbar"></div>
-      </div>
-      <!-- komponen kanan icon next -->
-     <a href=""><div class="Rnext-page">
-       <p class="right">></p>
-       <!-- komponen kiri icon next -->
-       <a href=""><div class="Lnext-page">
-        <p class="left"><</p>
-     </div></a>
-  </aside>
-</div>
+                <a href="#"><img class=" logo" src="./img/logo-icon.png" alt="logo.png"></a>
+            </nav>
+        </div>
+
+
+
+        <!-- Carousel Section -->
+
+        <section class="carousel-container">
+
+            <div class="card-carousel-wrapper js-flickity"
+                data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+                <div class="carousel-card">
+                    <div class="carousel-image-card">
+                        <img src="./img/c2.png" alt="carousel img">
+                    </div>
+                    <div class="carousel-text">
+                        <h2>Lorem ipsum</h2>
+                        <p>Lorem ipsum</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-card">
+                    <div class="carousel-image-card">
+                        <img src="./img/c1.jpg" alt="carousel img">
+
+                    </div>
+                    <div class="carousel-text">
+                        <h2>Lorem ipsum</h2>
+                        <p>Lorem Ipsum</p>
+
+                    </div>
+                </div>
+
+                <div class="carousel-card">
+                    <div class="carousel-image-card">
+                        <img src="./img/c3.jpg" alt="carousel img">
+
+                    </div>
+                    <div class="carousel-text">
+                        <h2>Lorem ipsum</h2>
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Book Lists -->
+        <div class="content-title">
+            <h2>Book Lists</h2>
+        </div>
+
+        <!-- Content Section -->
+        <section class="content-container">
+
+            <div class="card-container">
+                <img src="./img/c1.jpg" alt="book-cover">
+                <div class="card-text-container">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis lacus mi, sit amet
+                        vehicula nisl consequat id.</p>
+                </div>
+
+            </div>
+            <div class="card-container">
+                <img src="./img/c2.png" alt="book-cover">
+                <div class="card-text-container">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis lacus mi, sit amet
+                        vehicula nisl consequat id.</p>
+                </div>
+
+            </div>
+            <div class="card-container">
+                <img src="./img/c3.jpg" alt="book-cover">
+                <div class="card-text-container">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis lacus mi, sit amet
+                        vehicula nisl consequat id.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- script -->
+    <script>
+        function openNav() {
+            // document.getElementById("mySidenav").style.width = "100%";
+            if (window.matchMedia("(max-width: 700px)").matches) {
+                document.getElementById("mySidebar").style.width = "100%";
+                document.getElementById("main").style.marginLeft = "0";
+                document.getElementById("openSidebar").style.display = "none";
+            } else {
+                document.getElementById("mySidebar").style.width = "300px";
+                document.getElementById("main").style.marginLeft = "300px";
+                document.getElementById("openSidebar").style.display = "none";
+            }
+
+            return false;
+
+        }
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("openSidebar").style.display = "flex";
+
+            return false;
+        }
+    </script>
 </body>
+
 </html>
