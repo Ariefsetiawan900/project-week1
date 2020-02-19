@@ -6,7 +6,7 @@
 
 body {
   height: 100%;
-  font-family: "Airbnb Cereal App";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -154,7 +154,7 @@ ul {
 .aside-nav ul li a:hover {
   cursor: pointer;
   padding-bottom: 4px;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid black;
 }
 
 .menu-btn {
